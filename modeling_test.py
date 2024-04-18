@@ -142,6 +142,7 @@ class BertModelTest(tf.test.TestCase):
       tester.check_output(output_result)
       print(111)
       print(222)
+      print(333)
 
       self.assert_all_tensors_reachable(sess, [init_op, ops])
 
